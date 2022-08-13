@@ -1,0 +1,15 @@
+.portfolio-list {
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+  }
+  .portfolio-link {
+    display: inline-block;
+    transition: box-shadow var(--transition-duration) var(--transition-function);
+    outline: none;
+  }
+
+  .cards-content {
+    padding: 20px 24px;
+    border: var(--color-border);
+  }

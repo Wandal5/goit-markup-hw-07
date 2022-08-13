@@ -1,0 +1,9 @@
+.map {
+    color: var(--color-white);
+    transition: color var(--transition-duration) var(--transition-function);
+  }
+  
+  .map:hover,
+  .map:focus {
+    color: var(--color-light-blue);
+  }

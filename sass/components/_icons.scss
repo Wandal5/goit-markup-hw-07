@@ -1,0 +1,36 @@
+.mail__icon {
+    width: 16px;
+    height: 12px;
+  }
+  
+  .icon:hover {
+    fill: currentColor;
+  }
+  
+  .tel__icon {
+    width: 10px;
+    height: 16px;
+  }
+  
+  .contacts .icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+  
+  .description-icon {
+    display: flex;
+    height: 120px;
+    background-color: var(--color-filter-button);
+    border-radius: 4px;
+    column-gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .description-icon .icon {
+    height: 70px;
+    width: 70px;
+    justify-self: center;
+  }
+  
