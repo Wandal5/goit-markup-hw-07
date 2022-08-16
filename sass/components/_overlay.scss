@@ -8,12 +8,12 @@
     right: 0;
     width: 100%;
     height: 100%;
-    color: var(--color-white);
+    color: $color-white;
     font-size: 18px;
     line-height: 28px;
     /* or 156% */
     letter-spacing: 0.03em;
-    background-color: var(--color-overlay-portfolio);
+    background-color: $color-overlay-portfolio;
     transform: translatey(100%);
     transition: transform 250ms ease;
     padding: 63px 24px;

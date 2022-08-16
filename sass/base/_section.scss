@@ -8,12 +8,8 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    color: var(--color-dark-grey);
+    color: $color-dark-grey;
     text-align: center;
   }
 
-  .footer-section {
-    background: var(--color-footer-font);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+ 

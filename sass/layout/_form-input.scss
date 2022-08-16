@@ -4,22 +4,22 @@
     padding: 10px;
     padding-left: 42px;
     margin: 0;
-    background: var(--color-white);
+    background:  $color-white;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
     outline: transparent;
-    transition: border var(--transition-duration) var(--transition-function),
-    fill var(--transition-duration) var(--transition-function);
+    transition: border  $transition-duration  $transition-function,
+    fill  $transition-duration  $transition-function;
   }
   .form-input:focus,
   .form-input:hover {
-    border-color: var(--color-light-blue);
+    border-color:  $color-light-blue;
     cursor: pointer;
   }
   .form-input:focus + .register-form-icon,
   .form-input:hover + .register-form-icon {
-    fill: var(--color-light-blue);
+    fill:  $color-light-blue;
   }
   
   
@@ -37,7 +37,7 @@
   }
 
   .form-label {
-    transition: transform var(--transition-duration) var(--transition-function);
+    transition: transform  $transition-duration  $transition-function;
     font-size: 12px;
     line-height: calc(14 / 12);
     /* identical to box height */
@@ -70,5 +70,5 @@
   }
 
   ::-webkit-input-placeholder { /* WebKit browsers */
-    color: var(--color-placeholder)
+    color:  $color-placeholder
   }

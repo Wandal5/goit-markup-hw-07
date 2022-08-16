@@ -1,5 +1,5 @@
 .team {
-    background: var(--color-filter-button);
+    background:  $color-filter-button;
   }
   
   .team-name {
@@ -8,8 +8,17 @@
     line-height: 1.19;
     /* identical to box height */
     text-align: center;
-    color: var(--color-dark-grey);
+    color:  $color-dark-grey;
     margin-bottom: 10px;
+  }
+
+  .team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: $color-white;
+    flex-basis: calc((100% - 90px) / 4);
+    padding-bottom: 30px;
   }
   
   .team-work {
@@ -22,7 +31,7 @@
   
   .team-about {
     align-items: center;
-    background-color: var(--color-white);
+    background-color:  $color-white;
     border-radius: 0px 0px 4px 4px;
     padding: 0;
     margin: 0;

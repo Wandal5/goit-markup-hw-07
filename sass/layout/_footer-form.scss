@@ -1,3 +1,15 @@
+.footer-social-title {
+  color: var(--color-white);
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.footer-section {
+  background: var(--color-footer-font);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-form {
   
     display: flex;
@@ -7,7 +19,7 @@
   
   .footer-form-input {
     min-width: 358px;
-    color: var(--color-white);
+    color: $color-white;
     margin-right: 12px;
     padding: 15px;
     font-size: 16px;
@@ -36,13 +48,22 @@
   }
   
   .footer-socials-icon {
-    fill: var(--color-white);
+    fill: $color-white;
   }
   .footer-section .socials-link {
-    background-color: var(--color-bg-footer-social-links);
+    background-color: $color-bg-footer-social-links;
   }
   
   .footer-section .socials-link:hover,
   .footer-section .socials-link:focus {
-    background-color: var(--color-light-blue);
+    background-color: $color-light-blue;
+  }
+  
+  .footer-section .logo-studio {
+    color: $color-white;
+  }
+
+  .container .logo-footer {
+    margin-bottom: 20px;
+    display: inline-block;
   }

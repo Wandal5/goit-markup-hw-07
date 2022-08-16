@@ -1,64 +1,76 @@
-@import './utils/reset';
-
 @import './utils/variables';
+@import './utils/reset';
+@import './utils/mixin';
+
 
 @import './base/base';
-
+@import './base/card-set';
+@import './base/container';
 @import './base/section';
 
-@import './base/container';
-
-@import './base/card-set';
-@import './base/portfolio';
-
-@import './components/backdrop';
-@import './components/modal';
 @import './components/adress';
+@import './components/backdrop';
 @import './components/buttons';
 @import './components/checkbox';
-@import './components/client';
 @import './components/contact';
 @import './components/icons';
 @import './components/logo';
 @import './components/map';
+@import './components/modal';
 @import './components/navigation';
 @import './components/overlay';
 @import './components/socials';
-@import './components/team';
 
-@import './layout/header';
-
+@import './layout/about_section';
+@import './layout/client';
+@import './layout/description';
 @import './layout/filters';
 @import './layout/footer-form';
 @import './layout/form-input';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/portfolio';
+@import './layout/team';
 
 
 
 
 
-// :root {
-//     --color-grey: #757575;
-//     --color-dark-grey: #212121;
-//     --color-light-blue: #2196f3;
-//     --color-white: #ffffff;
-//     --color-black: #000000;
-//     --color-footer-font: #2f303a;
-//     --color-filter-button: #f5f4fa;
-//     --color-footer-primary: rgba(255, 255, 255, 0.6);
-//     --color-border: 1px solid #eeeeee;
-//     --color-head-border: 1px solid #ececec;
-//     --color-social-links: #afb1b8;
-//     --color-bg-footer-social-links: rgba(255, 255, 255, 0.1);
-//     --color-client-border: 1px solid #afb1b8;
-//     --color-client-bord-hover: 1px solid #2196f3;
-//     --color-bg-about: rgba(47, 48, 58, 0.8);
-//     --color-overlay-portfolio: rgba(33, 150, 243, 0.9);
-//     --color-bg-overlay-modal-window: rgba(0, 0, 0, 0.2);
-//     --color-bg-hover-button-hero: #188ce8;
-//     --transition-duration: 250ms;
-//     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
-//     --color-placeholder: rgba(117, 117, 117, 0.5);
-//   }
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --color-grey: #757575;
+    --color-dark-grey: #212121;
+    --color-light-blue: #2196f3;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-footer-font: #2f303a;
+    --color-filter-button: #f5f4fa;
+    --color-footer-primary: rgba(255, 255, 255, 0.6);
+    --color-border: 1px solid #eeeeee;
+    --color-head-border: 1px solid #ececec;
+    --color-social-links: #afb1b8;
+    --color-bg-footer-social-links: rgba(255, 255, 255, 0.1);
+    --color-client-border: 1px solid #afb1b8;
+    --color-client-bord-hover: 1px solid #2196f3;
+    --color-bg-about: rgba(47, 48, 58, 0.8);
+    --color-overlay-portfolio: rgba(33, 150, 243, 0.9);
+    --color-bg-overlay-modal-window: rgba(0, 0, 0, 0.2);
+    --color-bg-hover-button-hero: #188ce8;
+    --transition-duration: 250ms;
+    --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --color-placeholder: rgba(117, 117, 117, 0.5);
+  }
   
   
   // .hidden-title {
@@ -895,10 +907,10 @@
   //   transition: fill var(--transition-duration) var(--transition-function);
   // }
   
-  // .client-link:hover,
-  // .client-link:focus {
-  //   border: var(--color-client-bord-hover);
-  // }
+  .client-link:hover,
+  .client-link:focus {
+    border: var(--color-client-bord-hover);
+  }
   
   // .client-link:hover .socials-icon-logo,
   // .client-link:focus .socials-icon-logo {

@@ -1,7 +1,7 @@
 
 
   .logo {
-    color: var(--color-light-blue);
+    color: $color-light-blue;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -11,24 +11,12 @@
   }
 
   .logo-studio {
-    color: var(--color-dark-grey);
+    color: $color-dark-grey;
   }
   
-  .footer-section .logo-studio {
-    color: var(--color-white);
-  }
-
-  .container .logo-footer {
-    margin-bottom: 20px;
-    display: inline-block;
-  }
+  
   .socials-icon-logo {
-    fill: var(--color-social-links);
-    transition: fill var(--transition-duration) var(--transition-function);
+    fill: $color-social-links;
+    transition: fill $transition-duration $transition-function;
   }
 
-  .client-link:hover .socials-icon-logo,
-  .client-link:focus .socials-icon-logo {
-    fill: var(--color-light-blue);
-  }
-  

@@ -1,6 +1,6 @@
 .adress-item:hover,
   .adress-item:focus {
-    color: var(--color-light-blue);
+    color: $color-light-blue;
   }
   
   .adress-item:not(:last-child) {
@@ -8,5 +8,5 @@
   }
   
   .adress-item {
-    transition: color var(--transition-duration) var(--transition-function);
+    transition: color $transition-duration $transition-function;
   }
